@@ -1,0 +1,8 @@
+#!/Users/maxpothier/Desktop/CS2420/PROJECTS/3-linkedlist/testenv/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from isort.main import identify_imports_main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(identify_imports_main())
